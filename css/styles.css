@@ -1,0 +1,131 @@
+body {
+  font-family: 'Playfair Display', serif;
+  backgroun-color: white;
+}
+
+.home-page-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.home-page-profile-card {
+  display: flex;
+  border-bottom: 2px solid #dfe2e6;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.profile-card-portrait {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  padding-bottom: .3rem;
+  /*margin-top: 25%;
+  margin-right: 10%;
+  padding-right: .5em;*/
+}
+
+.profile-card-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.profile-card-title {
+  /*width: 200px;
+  height: 100px;*/
+  font-size: 2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: .3em;
+  /*margin-top: 50%;*/
+}
+
+.profile-card-subtitle {
+  /*width: 100px;
+  height: 100px;*/
+  color: #44b0be;
+  margin-top: 0;
+  padding-top:0;
+  padding-left: .1em;
+}
+
+.home-page-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 1.1em;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.home-page-about p {
+  text-align: justify;;
+  align-items: center;
+}
+
+.home-page-about a, .icons-list-item a {
+  color: #44b0be;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-page-about a:hover {
+  text-decoration: underline;
+}
+
+.icons-list-item a:hover {
+  text-decoration: underline;
+}
+
+.icons-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;;
+  width: 50%;
+  margin-left: 21.5%;
+  flex-wrap: wrap;
+}
+
+.resize {
+  width: 25px;
+  height: auto;
+  padding-top: 1.2em;
+  margin-right: .2em;
+  margin-bottom: -.3em;
+  margin-top: .2em;
+  margin-left: .3em;
+}
+
+.icons-like-item a:hover {
+  text-decoration: underline;
+}
+
+.icons-like {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;;
+  width: 50%;
+  margin-left: 35%;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+.icons-like-item {
+  margin-left: 8%;
+}
+
+.icons-like-item a {
+  color: #FF5700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+    border-top: 2px solid #dfe2e6;
+}
